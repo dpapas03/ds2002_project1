@@ -11,16 +11,7 @@ Following construction of the dimension tables, I extracted source data from the
 
 
 ## Code Description
-The project utilizes Python3 with the following packages:
--pandas
--sqlalchemy
--pymongo
--os
--json
--numpy
--datetime
--certifi
--pymongo
+The project utilizes Python3 with the following packages: pandas, sqlalchemy, pymongo, os, json, numpy, datetime, certifi, pymongo.
 With the exception of the creation of the initial databases, view materials, and the dim_date dimension, the Project 1 Jupyter notebook contains all the code necessary for the ETL process and any subsequent test SQL queries. Adjusting for connection credentials where indicated, running the cells from top to bottom reproduces the same adventureworks_dw solution. Running the Create_Populate_Dim_Date.sql script on the MySQL server when indicated by the Project 1 notebook creates the dim_date dimension. Running the provided AdventureWorks_MySQL,sql script on the MySQL server prior to running any code in the Project 1 notebook creates the provided adventureworks database. Running the provided AdventureWorks_Queries_MySQL.sql script on the MySQL server creates the table views necessary for the alternate source creation described in the Project 1 notebook. 
 
 
